@@ -18,51 +18,25 @@ namespace phan_loai_mau_arm_fanuc_lr
 {
     public partial class main : Form
     {
-
-
         private FilterInfoCollection Camera;
         private VideoCaptureDevice Cam;
         private Bitmap bitmap;
-
         private SerialPort serialport = new SerialPort();
-
         private Plc plc;
-        private double j1 =0.0 ;
-        private double j2 = 0.0 ;
-        private double j3 =0.0 ;
-        private double j4 =0.0 ;
-        private int j5 = 0 ;
-
-
+        private double j1 = 0.0;
+        private double j2 = 0.0;
+        private double j3 = 0.0;
+        private double j4 = 0.0;
+        private int j5 = 0;
         bool sttbangtai = false;
-
         bool sttcam = false;
         bool sttplc = false;
+
         public main()
         {
             InitializeComponent();
             Camera = new FilterInfoCollection(FilterCategory.VideoInputDevice);
             Cam = new VideoCaptureDevice();
-        }
-
-        private void moevj5active_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void moevj5posi_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void control_jog_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void controljog_Load(object sender, EventArgs e)
@@ -74,10 +48,7 @@ namespace phan_loai_mau_arm_fanuc_lr
 
             string[] port = SerialPort.GetPortNames();
             cbcom.Items.AddRange(port);
-
-
             enableTab(tabControl1.TabPages[tabControl1.SelectedIndex = 1], true);
-
         }
 
         private void enableTab(TabPage tabPage, bool enable)
@@ -95,25 +66,13 @@ namespace phan_loai_mau_arm_fanuc_lr
         }
         private void Cam_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
-         
             bitmap = (Bitmap)eventArgs.Frame.Clone();
             piccam.Image = bitmap;
-                
         }
 
-
-
-       
-
-       
         private void hScrollBar5_Scroll(object sender, ScrollEventArgs e)
         {
             txtthanhkeoj1.Text = thanhkeoj1.Value.ToString();
-        }
-
-        private void textBox15_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void thanhkeoj2_Scroll_1(object sender, ScrollEventArgs e)
@@ -162,17 +121,16 @@ namespace phan_loai_mau_arm_fanuc_lr
 
         private void btconnectplc_Click(object sender, EventArgs e)
         {
-            
             plc = new Plc(CpuType.S71200, txtip.Text, 0, 0);
             plc.Open();
             if (plc.IsConnected)
             {
                 MessageBox.Show("Kết nối PLC thành công!", "Thông báo");
                 sttplc = true;
-                if(sttcam==true)
+                if (sttcam == true)
                 {
                     enableTab(tabControl1.TabPages[tabControl1.SelectedIndex = 1], true);
-                }    
+                }
             }
             else
             {
@@ -199,17 +157,16 @@ namespace phan_loai_mau_arm_fanuc_lr
 
         private void movej1active_Click(object sender, EventArgs e)
         {
-           if (txtthanhkeoj1.Text !="")
+            if (txtthanhkeoj1.Text != "")
             {
                 j1 = j1 + Convert.ToInt32(txtthanhkeoj1.Text);
                 txtgocj1.Text = j1.ToString();
                 plc.Write("MD100", j1);
-            }    
+            }
             else
             {
                 MessageBox.Show("Vui lòng chọn góc cần di chuyển!", "thông báo");
-            }    
-            
+            }
         }
 
         private void movej1posi_Click(object sender, EventArgs e)
@@ -252,11 +209,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             {
                 MessageBox.Show("Vui lòng chọn góc cần di chuyển!", "thông báo");
             }
-
-
         }
 
-    private void movej4active_Click(object sender, EventArgs e)
+        private void movej4active_Click(object sender, EventArgs e)
         {
             if (txtthanhkeoj4.Text != "")
             {
@@ -342,11 +297,11 @@ namespace phan_loai_mau_arm_fanuc_lr
 
         private void btbangtai_Click(object sender, EventArgs e)
         {
-            if(sttbangtai !=true)
+            if (sttbangtai != true)
             {
                 sttbangtai = true;
                 btbangtai.BackColor = Color.GreenYellow;
-                plc.Write("M10.2",1);
+                plc.Write("M10.2", 1);
                 plc.Write("M10.2", 0);
             }
             else
@@ -355,8 +310,8 @@ namespace phan_loai_mau_arm_fanuc_lr
                 btbangtai.BackColor = Color.Red;
                 plc.Write("M12.0", 1);
                 plc.Write("M12.0", 0);
-            } 
-                
+            }
+
         }
 
         private void btkep_Click(object sender, EventArgs e)
@@ -373,8 +328,15 @@ namespace phan_loai_mau_arm_fanuc_lr
 
         private void btstart_Click(object sender, EventArgs e)
         {
-            plc.Write("M20.0", 1);
-            plc.Write("M20.0", 0);
+            try
+            { 
+                plc.Write("M20.0", 1);
+                plc.Write("M20.0", 0);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Information");
+            }
         }
 
         private void btstop_Click(object sender, EventArgs e)
@@ -391,18 +353,15 @@ namespace phan_loai_mau_arm_fanuc_lr
 
         private void btrst_Click(object sender, EventArgs e)
         {
-            plc.Write("M20.4", 1);
-            plc.Write("M20.4", 0);
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
+            try
+            {
+                plc.Write("M20.4", 1);
+                plc.Write("M20.4", 0);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Information");
+            }
         }
 
         private void connectport_Click(object sender, EventArgs e)
@@ -468,11 +427,6 @@ namespace phan_loai_mau_arm_fanuc_lr
         {
             j5 = 0;
             txtgocj5.Text = j5.ToString();
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

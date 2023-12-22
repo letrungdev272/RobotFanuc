@@ -53,7 +53,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.groupBox1.Controls.Add(this.txtip);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(51, 442);
+            this.groupBox1.Location = new System.Drawing.Point(57, 259);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(631, 102);
             this.groupBox1.TabIndex = 0;

@@ -101,6 +101,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.txtip = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             tabPage2 = new System.Windows.Forms.TabPage();
             tabPage2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -110,24 +113,23 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabPage2
             // 
-            tabPage2.Controls.Add(this.tableLayoutPanel3);
-            tabPage2.Controls.Add(this.piccam);
-            tabPage2.Controls.Add(this.tableLayoutPanel4);
+            tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            tabPage2.Controls.Add(this.panel2);
+            tabPage2.Controls.Add(this.panel1);
             tabPage2.Controls.Add(this.label15);
             tabPage2.Controls.Add(this.label16);
-            tabPage2.Controls.Add(this.tableLayoutPanel5);
-            tabPage2.Location = new System.Drawing.Point(4, 25);
-            tabPage2.Margin = new System.Windows.Forms.Padding(4);
+            tabPage2.Location = new System.Drawing.Point(4, 22);
             tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            tabPage2.Size = new System.Drawing.Size(953, 805);
+            tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            tabPage2.Size = new System.Drawing.Size(1014, 671);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "CONTROL";
-            tabPage2.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
             // 
@@ -144,26 +146,24 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tableLayoutPanel3.Controls.Add(this.label14, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.txtblue, 1, 2);
             this.tableLayoutPanel3.Controls.Add(this.txty, 1, 4);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(684, 464);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(515, 21);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 5;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.58823F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.41177F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 66F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(234, 305);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 57F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(176, 248);
             this.tableLayoutPanel3.TabIndex = 13;
             // 
             // txtx
             // 
             this.txtx.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtx.Location = new System.Drawing.Point(117, 196);
-            this.txtx.Margin = new System.Windows.Forms.Padding(4);
+            this.txtx.Location = new System.Drawing.Point(88, 158);
             this.txtx.Name = "txtx";
-            this.txtx.Size = new System.Drawing.Size(113, 22);
+            this.txtx.Size = new System.Drawing.Size(85, 20);
             this.txtx.TabIndex = 11;
             // 
             // label10
@@ -171,10 +171,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label10.Location = new System.Drawing.Point(4, 259);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(3, 210);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(26, 25);
+            this.label10.Size = new System.Drawing.Size(21, 20);
             this.label10.TabIndex = 8;
             this.label10.Text = "Y";
             // 
@@ -183,10 +183,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label11.Location = new System.Drawing.Point(4, 128);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label11.Location = new System.Drawing.Point(3, 104);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(67, 25);
+            this.label11.Size = new System.Drawing.Size(56, 20);
             this.label11.TabIndex = 6;
             this.label11.Text = "BLUE";
             // 
@@ -195,10 +195,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label12.Location = new System.Drawing.Point(4, 11);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.Location = new System.Drawing.Point(3, 9);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(55, 25);
+            this.label12.Size = new System.Drawing.Size(47, 20);
             this.label12.TabIndex = 0;
             this.label12.Text = "RED";
             // 
@@ -207,30 +207,27 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.label13.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
-            this.label13.Location = new System.Drawing.Point(4, 65);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label13.Location = new System.Drawing.Point(3, 53);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(94, 24);
+            this.label13.Size = new System.Drawing.Size(76, 18);
             this.label13.TabIndex = 4;
             this.label13.Text = "YELLOW";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // txtred
             // 
             this.txtred.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtred.Location = new System.Drawing.Point(117, 13);
-            this.txtred.Margin = new System.Windows.Forms.Padding(4);
+            this.txtred.Location = new System.Drawing.Point(88, 9);
             this.txtred.Name = "txtred";
-            this.txtred.Size = new System.Drawing.Size(113, 22);
+            this.txtred.Size = new System.Drawing.Size(85, 20);
             this.txtred.TabIndex = 3;
             // 
             // txtyellow
             // 
             this.txtyellow.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtyellow.Location = new System.Drawing.Point(117, 66);
-            this.txtyellow.Margin = new System.Windows.Forms.Padding(4);
+            this.txtyellow.Location = new System.Drawing.Point(88, 52);
             this.txtyellow.Name = "txtyellow";
-            this.txtyellow.Size = new System.Drawing.Size(113, 22);
+            this.txtyellow.Size = new System.Drawing.Size(85, 20);
             this.txtyellow.TabIndex = 1;
             // 
             // label14
@@ -238,38 +235,35 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.label14.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label14.Location = new System.Drawing.Point(4, 194);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label14.Location = new System.Drawing.Point(3, 158);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(27, 25);
+            this.label14.Size = new System.Drawing.Size(21, 20);
             this.label14.TabIndex = 7;
             this.label14.Text = "X";
             // 
             // txtblue
             // 
             this.txtblue.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtblue.Location = new System.Drawing.Point(117, 130);
-            this.txtblue.Margin = new System.Windows.Forms.Padding(4);
+            this.txtblue.Location = new System.Drawing.Point(88, 104);
             this.txtblue.Name = "txtblue";
-            this.txtblue.Size = new System.Drawing.Size(113, 22);
+            this.txtblue.Size = new System.Drawing.Size(85, 20);
             this.txtblue.TabIndex = 5;
             // 
             // txty
             // 
             this.txty.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txty.Location = new System.Drawing.Point(117, 260);
-            this.txty.Margin = new System.Windows.Forms.Padding(4);
+            this.txty.Location = new System.Drawing.Point(88, 210);
             this.txty.Name = "txty";
-            this.txty.Size = new System.Drawing.Size(113, 22);
+            this.txty.Size = new System.Drawing.Size(85, 20);
             this.txty.TabIndex = 9;
             // 
             // piccam
             // 
             this.piccam.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.piccam.Location = new System.Drawing.Point(151, 468);
-            this.piccam.Margin = new System.Windows.Forms.Padding(4);
+            this.piccam.Location = new System.Drawing.Point(115, 24);
             this.piccam.Name = "piccam";
-            this.piccam.Size = new System.Drawing.Size(529, 301);
+            this.piccam.Size = new System.Drawing.Size(397, 245);
             this.piccam.TabIndex = 14;
             this.piccam.TabStop = false;
             // 
@@ -281,25 +275,23 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tableLayoutPanel4.Controls.Add(this.btemc, 0, 2);
             this.tableLayoutPanel4.Controls.Add(this.btstop, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.btstart, 0, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(19, 464);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(16, 21);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 4;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.92593F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.07407F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 76F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 79F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(125, 305);
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 64F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(94, 248);
             this.tableLayoutPanel4.TabIndex = 12;
             // 
             // btrst
             // 
             this.btrst.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btrst.Location = new System.Drawing.Point(4, 234);
-            this.btrst.Margin = new System.Windows.Forms.Padding(4);
+            this.btrst.Location = new System.Drawing.Point(3, 190);
             this.btrst.Name = "btrst";
-            this.btrst.Size = new System.Drawing.Size(117, 62);
+            this.btrst.Size = new System.Drawing.Size(88, 50);
             this.btrst.TabIndex = 3;
             this.btrst.Text = "RESET";
             this.btrst.UseVisualStyleBackColor = true;
@@ -308,10 +300,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // btemc
             // 
             this.btemc.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btemc.Location = new System.Drawing.Point(4, 156);
-            this.btemc.Margin = new System.Windows.Forms.Padding(4);
+            this.btemc.Location = new System.Drawing.Point(3, 127);
             this.btemc.Name = "btemc";
-            this.btemc.Size = new System.Drawing.Size(117, 62);
+            this.btemc.Size = new System.Drawing.Size(88, 50);
             this.btemc.TabIndex = 2;
             this.btemc.Text = "EMC";
             this.btemc.UseVisualStyleBackColor = true;
@@ -320,10 +311,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // btstop
             // 
             this.btstop.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btstop.Location = new System.Drawing.Point(4, 77);
-            this.btstop.Margin = new System.Windows.Forms.Padding(4);
+            this.btstop.Location = new System.Drawing.Point(3, 63);
             this.btstop.Name = "btstop";
-            this.btstop.Size = new System.Drawing.Size(117, 62);
+            this.btstop.Size = new System.Drawing.Size(88, 50);
             this.btstop.TabIndex = 1;
             this.btstop.Text = "STOP";
             this.btstop.UseVisualStyleBackColor = true;
@@ -337,10 +327,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.btstart.FlatAppearance.BorderSize = 3;
             this.btstart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btstart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btstart.Location = new System.Drawing.Point(4, 4);
-            this.btstart.Margin = new System.Windows.Forms.Padding(4);
+            this.btstart.Location = new System.Drawing.Point(3, 3);
             this.btstart.Name = "btstart";
-            this.btstart.Size = new System.Drawing.Size(117, 60);
+            this.btstart.Size = new System.Drawing.Size(88, 49);
             this.btstart.TabIndex = 0;
             this.btstart.Text = "START";
             this.btstart.UseVisualStyleBackColor = false;
@@ -350,10 +339,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(13, 393);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label15.Location = new System.Drawing.Point(10, 319);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(434, 58);
+            this.label15.Size = new System.Drawing.Size(349, 46);
             this.label15.TabIndex = 11;
             this.label15.Text = "CONTROL AUTO";
             // 
@@ -361,10 +350,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(28, 20);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label16.Location = new System.Drawing.Point(21, 16);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(397, 58);
+            this.label16.Size = new System.Drawing.Size(319, 46);
             this.label16.TabIndex = 10;
             this.label16.Text = "CONTROL JOG";
             // 
@@ -373,10 +362,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tableLayoutPanel5.ColumnCount = 6;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.84946F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.15054F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 237F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 167F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 146F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 178F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
             this.tableLayoutPanel5.Controls.Add(this.zeroj2, 4, 1);
             this.tableLayoutPanel5.Controls.Add(this.zeroj1, 4, 0);
             this.tableLayoutPanel5.Controls.Add(this.thanhkeoj5, 2, 4);
@@ -393,8 +382,6 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tableLayoutPanel5.Controls.Add(this.movej1active, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.movej3active, 0, 2);
             this.tableLayoutPanel5.Controls.Add(this.movej5active, 0, 4);
-            this.tableLayoutPanel5.Controls.Add(this.btkep, 0, 5);
-            this.tableLayoutPanel5.Controls.Add(this.bttha, 1, 5);
             this.tableLayoutPanel5.Controls.Add(this.movej3posi, 1, 2);
             this.tableLayoutPanel5.Controls.Add(this.movej2posi, 1, 1);
             this.tableLayoutPanel5.Controls.Add(this.movej4posi, 1, 3);
@@ -409,29 +396,25 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tableLayoutPanel5.Controls.Add(this.txtgocj3, 5, 2);
             this.tableLayoutPanel5.Controls.Add(this.txtgocj4, 5, 3);
             this.tableLayoutPanel5.Controls.Add(this.txtgocj5, 5, 4);
-            this.tableLayoutPanel5.Controls.Add(this.btbangtai, 4, 5);
-            this.tableLayoutPanel5.Controls.Add(this.button1, 5, 5);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(19, 80);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(16, 3);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 6;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.75F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.25F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 53F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(900, 305);
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 43F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 41F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(675, 248);
             this.tableLayoutPanel5.TabIndex = 9;
             // 
             // zeroj2
             // 
             this.zeroj2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.zeroj2.Location = new System.Drawing.Point(611, 59);
-            this.zeroj2.Margin = new System.Windows.Forms.Padding(4);
+            this.zeroj2.Location = new System.Drawing.Point(458, 48);
             this.zeroj2.Name = "zeroj2";
-            this.zeroj2.Size = new System.Drawing.Size(116, 28);
+            this.zeroj2.Size = new System.Drawing.Size(87, 23);
             this.zeroj2.TabIndex = 27;
             this.zeroj2.Text = "SET ZERO J2";
             this.zeroj2.UseVisualStyleBackColor = true;
@@ -440,10 +423,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // zeroj1
             // 
             this.zeroj1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.zeroj1.Location = new System.Drawing.Point(611, 10);
-            this.zeroj1.Margin = new System.Windows.Forms.Padding(4);
+            this.zeroj1.Location = new System.Drawing.Point(458, 8);
             this.zeroj1.Name = "zeroj1";
-            this.zeroj1.Size = new System.Drawing.Size(116, 28);
+            this.zeroj1.Size = new System.Drawing.Size(87, 23);
             this.zeroj1.TabIndex = 26;
             this.zeroj1.Text = "SET ZERO J1";
             this.zeroj1.UseVisualStyleBackColor = true;
@@ -452,90 +434,85 @@ namespace phan_loai_mau_arm_fanuc_lr
             // thanhkeoj5
             // 
             this.thanhkeoj5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.thanhkeoj5.Location = new System.Drawing.Point(257, 221);
+            this.thanhkeoj5.Location = new System.Drawing.Point(192, 178);
             this.thanhkeoj5.Maximum = 360;
             this.thanhkeoj5.Name = "thanhkeoj5";
-            this.thanhkeoj5.Size = new System.Drawing.Size(207, 17);
+            this.thanhkeoj5.Size = new System.Drawing.Size(155, 17);
             this.thanhkeoj5.TabIndex = 24;
             this.thanhkeoj5.Scroll += new System.Windows.Forms.ScrollEventHandler(this.thanhkeoj5_Scroll);
             // 
             // txtthanhkeoj5
             // 
             this.txtthanhkeoj5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtthanhkeoj5.Location = new System.Drawing.Point(484, 218);
-            this.txtthanhkeoj5.Margin = new System.Windows.Forms.Padding(4);
+            this.txtthanhkeoj5.Location = new System.Drawing.Point(362, 176);
             this.txtthanhkeoj5.Name = "txtthanhkeoj5";
             this.txtthanhkeoj5.ReadOnly = true;
-            this.txtthanhkeoj5.Size = new System.Drawing.Size(97, 22);
+            this.txtthanhkeoj5.Size = new System.Drawing.Size(74, 20);
             this.txtthanhkeoj5.TabIndex = 25;
             // 
             // thanhkeoj4
             // 
             this.thanhkeoj4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.thanhkeoj4.Location = new System.Drawing.Point(257, 168);
+            this.thanhkeoj4.Location = new System.Drawing.Point(192, 135);
             this.thanhkeoj4.Maximum = 360;
             this.thanhkeoj4.Name = "thanhkeoj4";
-            this.thanhkeoj4.Size = new System.Drawing.Size(207, 17);
+            this.thanhkeoj4.Size = new System.Drawing.Size(155, 17);
             this.thanhkeoj4.TabIndex = 22;
             this.thanhkeoj4.Scroll += new System.Windows.Forms.ScrollEventHandler(this.thanhkeoj4_Scroll);
             // 
             // txtthanhkeoj4
             // 
             this.txtthanhkeoj4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtthanhkeoj4.Location = new System.Drawing.Point(484, 166);
-            this.txtthanhkeoj4.Margin = new System.Windows.Forms.Padding(4);
+            this.txtthanhkeoj4.Location = new System.Drawing.Point(362, 133);
             this.txtthanhkeoj4.Name = "txtthanhkeoj4";
             this.txtthanhkeoj4.ReadOnly = true;
-            this.txtthanhkeoj4.Size = new System.Drawing.Size(97, 22);
+            this.txtthanhkeoj4.Size = new System.Drawing.Size(74, 20);
             this.txtthanhkeoj4.TabIndex = 23;
             // 
             // thanhkeoj3
             // 
             this.thanhkeoj3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.thanhkeoj3.Location = new System.Drawing.Point(257, 117);
+            this.thanhkeoj3.Location = new System.Drawing.Point(192, 93);
             this.thanhkeoj3.Maximum = 360;
             this.thanhkeoj3.Name = "thanhkeoj3";
-            this.thanhkeoj3.Size = new System.Drawing.Size(207, 17);
+            this.thanhkeoj3.Size = new System.Drawing.Size(155, 17);
             this.thanhkeoj3.TabIndex = 20;
             this.thanhkeoj3.Scroll += new System.Windows.Forms.ScrollEventHandler(this.thanhkeoj3_Scroll_1);
             // 
             // txtthanhkeoj3
             // 
             this.txtthanhkeoj3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtthanhkeoj3.Location = new System.Drawing.Point(484, 114);
-            this.txtthanhkeoj3.Margin = new System.Windows.Forms.Padding(4);
+            this.txtthanhkeoj3.Location = new System.Drawing.Point(362, 91);
             this.txtthanhkeoj3.Name = "txtthanhkeoj3";
             this.txtthanhkeoj3.ReadOnly = true;
-            this.txtthanhkeoj3.Size = new System.Drawing.Size(97, 22);
+            this.txtthanhkeoj3.Size = new System.Drawing.Size(74, 20);
             this.txtthanhkeoj3.TabIndex = 21;
             // 
             // thanhkeoj2
             // 
             this.thanhkeoj2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.thanhkeoj2.Location = new System.Drawing.Point(257, 65);
+            this.thanhkeoj2.Location = new System.Drawing.Point(192, 51);
             this.thanhkeoj2.Maximum = 360;
             this.thanhkeoj2.Name = "thanhkeoj2";
-            this.thanhkeoj2.Size = new System.Drawing.Size(207, 17);
+            this.thanhkeoj2.Size = new System.Drawing.Size(155, 17);
             this.thanhkeoj2.TabIndex = 18;
             this.thanhkeoj2.Scroll += new System.Windows.Forms.ScrollEventHandler(this.thanhkeoj2_Scroll_1);
             // 
             // txtthanhkeoj2
             // 
             this.txtthanhkeoj2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtthanhkeoj2.Location = new System.Drawing.Point(484, 62);
-            this.txtthanhkeoj2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtthanhkeoj2.Location = new System.Drawing.Point(362, 49);
             this.txtthanhkeoj2.Name = "txtthanhkeoj2";
             this.txtthanhkeoj2.ReadOnly = true;
-            this.txtthanhkeoj2.Size = new System.Drawing.Size(97, 22);
+            this.txtthanhkeoj2.Size = new System.Drawing.Size(74, 20);
             this.txtthanhkeoj2.TabIndex = 19;
             // 
             // movej1posi
             // 
             this.movej1posi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej1posi.Location = new System.Drawing.Point(129, 10);
-            this.movej1posi.Margin = new System.Windows.Forms.Padding(4);
+            this.movej1posi.Location = new System.Drawing.Point(96, 8);
             this.movej1posi.Name = "movej1posi";
-            this.movej1posi.Size = new System.Drawing.Size(100, 28);
+            this.movej1posi.Size = new System.Drawing.Size(75, 23);
             this.movej1posi.TabIndex = 11;
             this.movej1posi.Text = "J1-";
             this.movej1posi.UseVisualStyleBackColor = true;
@@ -544,10 +521,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej4active
             // 
             this.movej4active.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej4active.Location = new System.Drawing.Point(8, 163);
-            this.movej4active.Margin = new System.Windows.Forms.Padding(4);
+            this.movej4active.Location = new System.Drawing.Point(6, 132);
             this.movej4active.Name = "movej4active";
-            this.movej4active.Size = new System.Drawing.Size(100, 28);
+            this.movej4active.Size = new System.Drawing.Size(75, 23);
             this.movej4active.TabIndex = 2;
             this.movej4active.Text = "J4+";
             this.movej4active.UseVisualStyleBackColor = true;
@@ -556,10 +532,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej2active
             // 
             this.movej2active.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej2active.Location = new System.Drawing.Point(8, 59);
-            this.movej2active.Margin = new System.Windows.Forms.Padding(4);
+            this.movej2active.Location = new System.Drawing.Point(6, 48);
             this.movej2active.Name = "movej2active";
-            this.movej2active.Size = new System.Drawing.Size(100, 28);
+            this.movej2active.Size = new System.Drawing.Size(75, 23);
             this.movej2active.TabIndex = 3;
             this.movej2active.Text = "J2+";
             this.movej2active.UseVisualStyleBackColor = true;
@@ -568,10 +543,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej1active
             // 
             this.movej1active.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej1active.Location = new System.Drawing.Point(8, 10);
-            this.movej1active.Margin = new System.Windows.Forms.Padding(4);
+            this.movej1active.Location = new System.Drawing.Point(6, 8);
             this.movej1active.Name = "movej1active";
-            this.movej1active.Size = new System.Drawing.Size(100, 28);
+            this.movej1active.Size = new System.Drawing.Size(75, 23);
             this.movej1active.TabIndex = 0;
             this.movej1active.Text = "J1+";
             this.movej1active.UseVisualStyleBackColor = true;
@@ -580,10 +554,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej3active
             // 
             this.movej3active.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej3active.Location = new System.Drawing.Point(8, 111);
-            this.movej3active.Margin = new System.Windows.Forms.Padding(4);
+            this.movej3active.Location = new System.Drawing.Point(6, 90);
             this.movej3active.Name = "movej3active";
-            this.movej3active.Size = new System.Drawing.Size(100, 28);
+            this.movej3active.Size = new System.Drawing.Size(75, 23);
             this.movej3active.TabIndex = 4;
             this.movej3active.Text = "J3+";
             this.movej3active.UseVisualStyleBackColor = true;
@@ -592,10 +565,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej5active
             // 
             this.movej5active.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej5active.Location = new System.Drawing.Point(8, 215);
-            this.movej5active.Margin = new System.Windows.Forms.Padding(4);
+            this.movej5active.Location = new System.Drawing.Point(6, 175);
             this.movej5active.Name = "movej5active";
-            this.movej5active.Size = new System.Drawing.Size(100, 28);
+            this.movej5active.Size = new System.Drawing.Size(75, 23);
             this.movej5active.TabIndex = 7;
             this.movej5active.Text = "J5+";
             this.movej5active.UseVisualStyleBackColor = true;
@@ -604,10 +576,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // btkep
             // 
             this.btkep.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btkep.Location = new System.Drawing.Point(8, 267);
-            this.btkep.Margin = new System.Windows.Forms.Padding(4);
+            this.btkep.Location = new System.Drawing.Point(725, 6);
             this.btkep.Name = "btkep";
-            this.btkep.Size = new System.Drawing.Size(100, 28);
+            this.btkep.Size = new System.Drawing.Size(88, 23);
             this.btkep.TabIndex = 9;
             this.btkep.Text = "GRIP";
             this.btkep.UseVisualStyleBackColor = true;
@@ -616,10 +587,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // bttha
             // 
             this.bttha.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bttha.Location = new System.Drawing.Point(129, 267);
-            this.bttha.Margin = new System.Windows.Forms.Padding(4);
+            this.bttha.Location = new System.Drawing.Point(725, 42);
             this.bttha.Name = "bttha";
-            this.bttha.Size = new System.Drawing.Size(100, 28);
+            this.bttha.Size = new System.Drawing.Size(88, 23);
             this.bttha.TabIndex = 16;
             this.bttha.Text = "DROP";
             this.bttha.UseVisualStyleBackColor = true;
@@ -628,10 +598,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej3posi
             // 
             this.movej3posi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej3posi.Location = new System.Drawing.Point(129, 111);
-            this.movej3posi.Margin = new System.Windows.Forms.Padding(4);
+            this.movej3posi.Location = new System.Drawing.Point(96, 90);
             this.movej3posi.Name = "movej3posi";
-            this.movej3posi.Size = new System.Drawing.Size(100, 28);
+            this.movej3posi.Size = new System.Drawing.Size(75, 23);
             this.movej3posi.TabIndex = 14;
             this.movej3posi.Text = "J3-";
             this.movej3posi.UseVisualStyleBackColor = true;
@@ -640,10 +609,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej2posi
             // 
             this.movej2posi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej2posi.Location = new System.Drawing.Point(129, 59);
-            this.movej2posi.Margin = new System.Windows.Forms.Padding(4);
+            this.movej2posi.Location = new System.Drawing.Point(96, 48);
             this.movej2posi.Name = "movej2posi";
-            this.movej2posi.Size = new System.Drawing.Size(100, 28);
+            this.movej2posi.Size = new System.Drawing.Size(75, 23);
             this.movej2posi.TabIndex = 12;
             this.movej2posi.Text = "J2-";
             this.movej2posi.UseVisualStyleBackColor = true;
@@ -652,10 +620,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej4posi
             // 
             this.movej4posi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej4posi.Location = new System.Drawing.Point(129, 163);
-            this.movej4posi.Margin = new System.Windows.Forms.Padding(4);
+            this.movej4posi.Location = new System.Drawing.Point(96, 132);
             this.movej4posi.Name = "movej4posi";
-            this.movej4posi.Size = new System.Drawing.Size(100, 28);
+            this.movej4posi.Size = new System.Drawing.Size(75, 23);
             this.movej4posi.TabIndex = 13;
             this.movej4posi.Text = "J4-";
             this.movej4posi.UseVisualStyleBackColor = true;
@@ -664,10 +631,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej5posi
             // 
             this.movej5posi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej5posi.Location = new System.Drawing.Point(129, 215);
-            this.movej5posi.Margin = new System.Windows.Forms.Padding(4);
+            this.movej5posi.Location = new System.Drawing.Point(96, 175);
             this.movej5posi.Name = "movej5posi";
-            this.movej5posi.Size = new System.Drawing.Size(100, 28);
+            this.movej5posi.Size = new System.Drawing.Size(75, 23);
             this.movej5posi.TabIndex = 15;
             this.movej5posi.Text = "J5-";
             this.movej5posi.UseVisualStyleBackColor = true;
@@ -676,20 +642,19 @@ namespace phan_loai_mau_arm_fanuc_lr
             // thanhkeoj1
             // 
             this.thanhkeoj1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.thanhkeoj1.Location = new System.Drawing.Point(257, 15);
+            this.thanhkeoj1.Location = new System.Drawing.Point(192, 11);
             this.thanhkeoj1.Maximum = 360;
             this.thanhkeoj1.Name = "thanhkeoj1";
-            this.thanhkeoj1.Size = new System.Drawing.Size(207, 17);
+            this.thanhkeoj1.Size = new System.Drawing.Size(155, 17);
             this.thanhkeoj1.TabIndex = 10;
             this.thanhkeoj1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBar5_Scroll);
             // 
             // zeroj3
             // 
             this.zeroj3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.zeroj3.Location = new System.Drawing.Point(611, 111);
-            this.zeroj3.Margin = new System.Windows.Forms.Padding(4);
+            this.zeroj3.Location = new System.Drawing.Point(458, 90);
             this.zeroj3.Name = "zeroj3";
-            this.zeroj3.Size = new System.Drawing.Size(116, 28);
+            this.zeroj3.Size = new System.Drawing.Size(87, 23);
             this.zeroj3.TabIndex = 28;
             this.zeroj3.Text = "SET ZERO J3";
             this.zeroj3.UseVisualStyleBackColor = true;
@@ -698,10 +663,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // zeroj4
             // 
             this.zeroj4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.zeroj4.Location = new System.Drawing.Point(611, 163);
-            this.zeroj4.Margin = new System.Windows.Forms.Padding(4);
+            this.zeroj4.Location = new System.Drawing.Point(458, 132);
             this.zeroj4.Name = "zeroj4";
-            this.zeroj4.Size = new System.Drawing.Size(116, 28);
+            this.zeroj4.Size = new System.Drawing.Size(87, 23);
             this.zeroj4.TabIndex = 29;
             this.zeroj4.Text = "SET ZERO J4";
             this.zeroj4.UseVisualStyleBackColor = true;
@@ -710,10 +674,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // zeroj5
             // 
             this.zeroj5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.zeroj5.Location = new System.Drawing.Point(611, 215);
-            this.zeroj5.Margin = new System.Windows.Forms.Padding(4);
+            this.zeroj5.Location = new System.Drawing.Point(458, 175);
             this.zeroj5.Name = "zeroj5";
-            this.zeroj5.Size = new System.Drawing.Size(116, 28);
+            this.zeroj5.Size = new System.Drawing.Size(87, 23);
             this.zeroj5.TabIndex = 30;
             this.zeroj5.Text = "SET ZERO J5";
             this.zeroj5.UseVisualStyleBackColor = true;
@@ -722,22 +685,19 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtthanhkeoj1
             // 
             this.txtthanhkeoj1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtthanhkeoj1.Location = new System.Drawing.Point(484, 13);
-            this.txtthanhkeoj1.Margin = new System.Windows.Forms.Padding(4);
+            this.txtthanhkeoj1.Location = new System.Drawing.Point(362, 9);
             this.txtthanhkeoj1.Name = "txtthanhkeoj1";
             this.txtthanhkeoj1.ReadOnly = true;
-            this.txtthanhkeoj1.Size = new System.Drawing.Size(97, 22);
+            this.txtthanhkeoj1.Size = new System.Drawing.Size(74, 20);
             this.txtthanhkeoj1.TabIndex = 17;
-            this.txtthanhkeoj1.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
             // 
             // txtgocj1
             // 
             this.txtgocj1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtgocj1.Location = new System.Drawing.Point(771, 13);
-            this.txtgocj1.Margin = new System.Windows.Forms.Padding(4);
+            this.txtgocj1.Location = new System.Drawing.Point(577, 9);
             this.txtgocj1.Name = "txtgocj1";
             this.txtgocj1.ReadOnly = true;
-            this.txtgocj1.Size = new System.Drawing.Size(111, 22);
+            this.txtgocj1.Size = new System.Drawing.Size(84, 20);
             this.txtgocj1.TabIndex = 31;
             this.txtgocj1.Text = "0";
             this.txtgocj1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -745,11 +705,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtgocj2
             // 
             this.txtgocj2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtgocj2.Location = new System.Drawing.Point(771, 62);
-            this.txtgocj2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtgocj2.Location = new System.Drawing.Point(577, 49);
             this.txtgocj2.Name = "txtgocj2";
             this.txtgocj2.ReadOnly = true;
-            this.txtgocj2.Size = new System.Drawing.Size(111, 22);
+            this.txtgocj2.Size = new System.Drawing.Size(84, 20);
             this.txtgocj2.TabIndex = 32;
             this.txtgocj2.Text = "0";
             this.txtgocj2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -757,11 +716,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtgocj3
             // 
             this.txtgocj3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtgocj3.Location = new System.Drawing.Point(771, 114);
-            this.txtgocj3.Margin = new System.Windows.Forms.Padding(4);
+            this.txtgocj3.Location = new System.Drawing.Point(577, 91);
             this.txtgocj3.Name = "txtgocj3";
             this.txtgocj3.ReadOnly = true;
-            this.txtgocj3.Size = new System.Drawing.Size(111, 22);
+            this.txtgocj3.Size = new System.Drawing.Size(84, 20);
             this.txtgocj3.TabIndex = 33;
             this.txtgocj3.Text = "0";
             this.txtgocj3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -769,11 +727,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtgocj4
             // 
             this.txtgocj4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtgocj4.Location = new System.Drawing.Point(771, 166);
-            this.txtgocj4.Margin = new System.Windows.Forms.Padding(4);
+            this.txtgocj4.Location = new System.Drawing.Point(577, 133);
             this.txtgocj4.Name = "txtgocj4";
             this.txtgocj4.ReadOnly = true;
-            this.txtgocj4.Size = new System.Drawing.Size(111, 22);
+            this.txtgocj4.Size = new System.Drawing.Size(84, 20);
             this.txtgocj4.TabIndex = 34;
             this.txtgocj4.Text = "0";
             this.txtgocj4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -781,11 +738,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtgocj5
             // 
             this.txtgocj5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtgocj5.Location = new System.Drawing.Point(771, 218);
-            this.txtgocj5.Margin = new System.Windows.Forms.Padding(4);
+            this.txtgocj5.Location = new System.Drawing.Point(577, 176);
             this.txtgocj5.Name = "txtgocj5";
             this.txtgocj5.ReadOnly = true;
-            this.txtgocj5.Size = new System.Drawing.Size(111, 22);
+            this.txtgocj5.Size = new System.Drawing.Size(84, 20);
             this.txtgocj5.TabIndex = 35;
             this.txtgocj5.Text = "0";
             this.txtgocj5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -795,10 +751,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.btbangtai.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btbangtai.BackColor = System.Drawing.Color.Red;
             this.btbangtai.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btbangtai.Location = new System.Drawing.Point(612, 267);
-            this.btbangtai.Margin = new System.Windows.Forms.Padding(4);
+            this.btbangtai.Location = new System.Drawing.Point(725, 82);
             this.btbangtai.Name = "btbangtai";
-            this.btbangtai.Size = new System.Drawing.Size(115, 28);
+            this.btbangtai.Size = new System.Drawing.Size(88, 23);
             this.btbangtai.TabIndex = 37;
             this.btbangtai.Text = "CONVEYOR";
             this.btbangtai.UseVisualStyleBackColor = false;
@@ -807,10 +762,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(768, 267);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(725, 124);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 28);
+            this.button1.Size = new System.Drawing.Size(88, 23);
             this.button1.TabIndex = 38;
             this.button1.Text = "GO TO ZERO";
             this.button1.UseVisualStyleBackColor = true;
@@ -818,28 +772,28 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             // tabControl1
             // 
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(1, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(961, 834);
+            this.tabControl1.Size = new System.Drawing.Size(1022, 697);
             this.tabControl1.TabIndex = 11;
             this.tabControl1.TabStop = false;
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(953, 805);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(717, 583);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "CONNECT";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // groupBox1
             // 
@@ -857,11 +811,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.groupBox1.Controls.Add(this.txtip);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Location = new System.Drawing.Point(43, 540);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(36, 90);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(841, 202);
+            this.groupBox1.Size = new System.Drawing.Size(631, 164);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
@@ -869,29 +821,27 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(8, 111);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(6, 90);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 25);
+            this.label3.Size = new System.Drawing.Size(91, 20);
             this.label3.TabIndex = 13;
             this.label3.Text = "ARDUINO";
             // 
             // disconnectport
             // 
-            this.disconnectport.Location = new System.Drawing.Point(535, 111);
-            this.disconnectport.Margin = new System.Windows.Forms.Padding(4);
+            this.disconnectport.Location = new System.Drawing.Point(401, 90);
             this.disconnectport.Name = "disconnectport";
-            this.disconnectport.Size = new System.Drawing.Size(117, 25);
+            this.disconnectport.Size = new System.Drawing.Size(88, 20);
             this.disconnectport.TabIndex = 12;
             this.disconnectport.Text = "DISCONNECT";
             this.disconnectport.UseVisualStyleBackColor = true;
             // 
             // connectport
             // 
-            this.connectport.Location = new System.Drawing.Point(399, 111);
-            this.connectport.Margin = new System.Windows.Forms.Padding(4);
+            this.connectport.Location = new System.Drawing.Point(299, 90);
             this.connectport.Name = "connectport";
-            this.connectport.Size = new System.Drawing.Size(100, 25);
+            this.connectport.Size = new System.Drawing.Size(75, 20);
             this.connectport.TabIndex = 11;
             this.connectport.Text = "CONNECT";
             this.connectport.UseVisualStyleBackColor = true;
@@ -900,20 +850,19 @@ namespace phan_loai_mau_arm_fanuc_lr
             // cbcom
             // 
             this.cbcom.FormattingEnabled = true;
-            this.cbcom.Location = new System.Drawing.Point(149, 112);
-            this.cbcom.Margin = new System.Windows.Forms.Padding(4);
+            this.cbcom.Location = new System.Drawing.Point(112, 91);
             this.cbcom.Name = "cbcom";
-            this.cbcom.Size = new System.Drawing.Size(196, 24);
+            this.cbcom.Size = new System.Drawing.Size(148, 21);
             this.cbcom.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(8, 76);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(6, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 25);
+            this.label2.Size = new System.Drawing.Size(84, 20);
             this.label2.TabIndex = 9;
             this.label2.Text = "CAMERA";
             // 
@@ -921,19 +870,18 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 42);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(6, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 25);
+            this.label1.Size = new System.Drawing.Size(42, 20);
             this.label1.TabIndex = 8;
             this.label1.Text = "PLC";
             // 
             // btdisconnectcam
             // 
-            this.btdisconnectcam.Location = new System.Drawing.Point(535, 76);
-            this.btdisconnectcam.Margin = new System.Windows.Forms.Padding(4);
+            this.btdisconnectcam.Location = new System.Drawing.Point(401, 62);
             this.btdisconnectcam.Name = "btdisconnectcam";
-            this.btdisconnectcam.Size = new System.Drawing.Size(117, 25);
+            this.btdisconnectcam.Size = new System.Drawing.Size(88, 20);
             this.btdisconnectcam.TabIndex = 7;
             this.btdisconnectcam.Text = "DISCONNECT";
             this.btdisconnectcam.UseVisualStyleBackColor = true;
@@ -941,10 +889,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             // btconnectcam
             // 
-            this.btconnectcam.Location = new System.Drawing.Point(399, 76);
-            this.btconnectcam.Margin = new System.Windows.Forms.Padding(4);
+            this.btconnectcam.Location = new System.Drawing.Point(299, 62);
             this.btconnectcam.Name = "btconnectcam";
-            this.btconnectcam.Size = new System.Drawing.Size(100, 25);
+            this.btconnectcam.Size = new System.Drawing.Size(75, 20);
             this.btconnectcam.TabIndex = 6;
             this.btconnectcam.Text = "CONNECT";
             this.btconnectcam.UseVisualStyleBackColor = true;
@@ -952,10 +899,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             // btdisconnectplc
             // 
-            this.btdisconnectplc.Location = new System.Drawing.Point(535, 44);
-            this.btdisconnectplc.Margin = new System.Windows.Forms.Padding(4);
+            this.btdisconnectplc.Location = new System.Drawing.Point(401, 36);
             this.btdisconnectplc.Name = "btdisconnectplc";
-            this.btdisconnectplc.Size = new System.Drawing.Size(117, 25);
+            this.btdisconnectplc.Size = new System.Drawing.Size(88, 20);
             this.btdisconnectplc.TabIndex = 5;
             this.btdisconnectplc.Text = "DISCONNECT";
             this.btdisconnectplc.UseVisualStyleBackColor = true;
@@ -963,10 +909,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             // btconnectplc
             // 
-            this.btconnectplc.Location = new System.Drawing.Point(399, 44);
-            this.btconnectplc.Margin = new System.Windows.Forms.Padding(4);
+            this.btconnectplc.Location = new System.Drawing.Point(299, 36);
             this.btconnectplc.Name = "btconnectplc";
-            this.btconnectplc.Size = new System.Drawing.Size(100, 25);
+            this.btconnectplc.Size = new System.Drawing.Size(75, 20);
             this.btconnectplc.TabIndex = 4;
             this.btconnectplc.Text = "CONNECT";
             this.btconnectplc.UseVisualStyleBackColor = true;
@@ -975,47 +920,77 @@ namespace phan_loai_mau_arm_fanuc_lr
             // cbcam
             // 
             this.cbcam.FormattingEnabled = true;
-            this.cbcam.Location = new System.Drawing.Point(149, 78);
-            this.cbcam.Margin = new System.Windows.Forms.Padding(4);
+            this.cbcam.Location = new System.Drawing.Point(112, 63);
             this.cbcam.Name = "cbcam";
-            this.cbcam.Size = new System.Drawing.Size(196, 24);
+            this.cbcam.Size = new System.Drawing.Size(148, 21);
             this.cbcam.TabIndex = 3;
             // 
             // txtip
             // 
-            this.txtip.Location = new System.Drawing.Point(149, 44);
-            this.txtip.Margin = new System.Windows.Forms.Padding(4);
+            this.txtip.Location = new System.Drawing.Point(112, 36);
             this.txtip.Name = "txtip";
-            this.txtip.Size = new System.Drawing.Size(196, 22);
+            this.txtip.Size = new System.Drawing.Size(148, 20);
             this.txtip.TabIndex = 2;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(31, 80);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(23, 65);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(0, 17);
+            this.label8.Size = new System.Drawing.Size(0, 13);
             this.label8.TabIndex = 1;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(31, 44);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(23, 36);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(0, 17);
+            this.label9.Size = new System.Drawing.Size(0, 13);
             this.label9.TabIndex = 0;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(717, 583);
+            this.tabPage3.TabIndex = 0;
+            this.tabPage3.Text = "HOME";
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.tableLayoutPanel5);
+            this.panel1.Controls.Add(this.btkep);
+            this.panel1.Controls.Add(this.bttha);
+            this.panel1.Controls.Add(this.btbangtai);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Location = new System.Drawing.Point(14, 65);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(834, 251);
+            this.panel1.TabIndex = 15;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.tableLayoutPanel4);
+            this.panel2.Controls.Add(this.piccam);
+            this.panel2.Controls.Add(this.tableLayoutPanel3);
+            this.panel2.Location = new System.Drawing.Point(14, 368);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(834, 307);
+            this.panel2.TabIndex = 16;
             // 
             // main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(967, 849);
+            this.ClientSize = new System.Drawing.Size(1022, 697);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.controljog_Load);
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
@@ -1029,6 +1004,8 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tabPage1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1105,6 +1082,9 @@ namespace phan_loai_mau_arm_fanuc_lr
         private System.Windows.Forms.Button connectport;
         private System.Windows.Forms.ComboBox cbcom;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
