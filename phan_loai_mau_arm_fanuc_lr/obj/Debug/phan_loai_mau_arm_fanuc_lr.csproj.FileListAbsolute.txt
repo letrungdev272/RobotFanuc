@@ -1,0 +1,79 @@
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.exe.config
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.exe
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.pdb
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.AssemblyReference.cache
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.Properties.Resources.resources
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.GenerateResource.cache
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.CoreCompileInputs.cache
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.exe
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.pdb
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.Form1.resources
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.dll
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.dll
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.xml
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.xml
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.CopyComplete
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.main.resources
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\S7.Net.dll
+C:\Users\MTPC\source\repos\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\S7.Net.xml
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.exe.config
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.exe
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.pdb
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.dll
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.DirectShow.dll
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.dll
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\S7.Net.dll
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.xml
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.xml
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.DirectShow.xml
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\S7.Net.xml
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.AssemblyReference.cache
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.Form1.resources
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.main.resources
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.Properties.Resources.resources
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.GenerateResource.cache
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.CoreCompileInputs.cache
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.CopyComplete
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.exe
+F:\c#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.pdb
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.exe.config
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.exe
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.pdb
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.dll
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.dll
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.xml
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.xml
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\S7.Net.xml
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.AssemblyReference.cache
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.Form1.resources
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.main.resources
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.Properties.Resources.resources
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.GenerateResource.cache
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.CopyComplete
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.exe
+C:\Users\Acer\Downloads\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.pdb
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.exe.config
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.exe
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\phan_loai_mau_arm_fanuc_lr.pdb
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.dll
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.DirectShow.dll
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.dll
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.xml
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.xml
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\AForge.Video.DirectShow.xml
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\bin\Debug\S7.Net.xml
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.AssemblyReference.cache
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.Form1.resources
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.main.resources
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.Properties.Resources.resources
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.GenerateResource.cache
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.CoreCompileInputs.cache
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.csproj.CopyComplete
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.exe
+D:\DO AN TOT NGHIEP\CODE C#\phan_loai_mau_arm_fanuc_lr\phan_loai_mau_arm_fanuc_lr\obj\Debug\phan_loai_mau_arm_fanuc_lr.pdb
