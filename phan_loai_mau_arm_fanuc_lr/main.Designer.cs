@@ -29,7 +29,14 @@ namespace phan_loai_mau_arm_fanuc_lr
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TabPage tabPage2;
+            System.Windows.Forms.TabPage tabPage5;
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.btrst = new System.Windows.Forms.Button();
+            this.btemc = new System.Windows.Forms.Button();
+            this.btstop = new System.Windows.Forms.Button();
+            this.btstart = new System.Windows.Forms.Button();
+            this.piccam = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.txtx = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -41,14 +48,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.label14 = new System.Windows.Forms.Label();
             this.txtblue = new System.Windows.Forms.TextBox();
             this.txty = new System.Windows.Forms.TextBox();
-            this.piccam = new System.Windows.Forms.PictureBox();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.btrst = new System.Windows.Forms.Button();
-            this.btemc = new System.Windows.Forms.Button();
-            this.btstop = new System.Windows.Forms.Button();
-            this.btstart = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.zeroj2 = new System.Windows.Forms.Button();
             this.zeroj1 = new System.Windows.Forms.Button();
@@ -66,8 +66,6 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.movej1active = new System.Windows.Forms.Button();
             this.movej3active = new System.Windows.Forms.Button();
             this.movej5active = new System.Windows.Forms.Button();
-            this.btkep = new System.Windows.Forms.Button();
-            this.bttha = new System.Windows.Forms.Button();
             this.movej3posi = new System.Windows.Forms.Button();
             this.movej2posi = new System.Windows.Forms.Button();
             this.movej4posi = new System.Windows.Forms.Button();
@@ -82,11 +80,16 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.txtgocj3 = new System.Windows.Forms.TextBox();
             this.txtgocj4 = new System.Windows.Forms.TextBox();
             this.txtgocj5 = new System.Windows.Forms.TextBox();
+            this.btkep = new System.Windows.Forms.Button();
+            this.bttha = new System.Windows.Forms.Button();
             this.btbangtai = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.label3 = new System.Windows.Forms.Label();
             this.disconnectport = new System.Windows.Forms.Button();
             this.connectport = new System.Windows.Forms.Button();
@@ -101,171 +104,67 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.txtip = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            tabPage2 = new System.Windows.Forms.TabPage();
-            tabPage2.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.piccam)).BeginInit();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            tabPage5 = new System.Windows.Forms.TabPage();
+            tabPage5.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.piccam)).BeginInit();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabPage2
+            // tabPage5
             // 
-            tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            tabPage2.Controls.Add(this.panel2);
-            tabPage2.Controls.Add(this.panel1);
-            tabPage2.Controls.Add(this.label15);
-            tabPage2.Controls.Add(this.label16);
-            tabPage2.Location = new System.Drawing.Point(4, 22);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            tabPage2.Size = new System.Drawing.Size(1014, 671);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "CONTROL";
+            tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            tabPage5.Controls.Add(this.panel7);
+            tabPage5.Controls.Add(this.panel2);
+            tabPage5.Controls.Add(this.panel1);
+            tabPage5.Location = new System.Drawing.Point(4, 22);
+            tabPage5.Name = "tabPage5";
+            tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            tabPage5.Size = new System.Drawing.Size(1318, 671);
+            tabPage5.TabIndex = 1;
+            tabPage5.Text = "CONTROL";
             // 
-            // tableLayoutPanel3
+            // panel2
             // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.51064F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.48936F));
-            this.tableLayoutPanel3.Controls.Add(this.txtx, 1, 3);
-            this.tableLayoutPanel3.Controls.Add(this.label10, 0, 4);
-            this.tableLayoutPanel3.Controls.Add(this.label11, 0, 2);
-            this.tableLayoutPanel3.Controls.Add(this.label12, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label13, 0, 1);
-            this.tableLayoutPanel3.Controls.Add(this.txtred, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.txtyellow, 1, 1);
-            this.tableLayoutPanel3.Controls.Add(this.label14, 0, 3);
-            this.tableLayoutPanel3.Controls.Add(this.txtblue, 1, 2);
-            this.tableLayoutPanel3.Controls.Add(this.txty, 1, 4);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(515, 21);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 5;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.58823F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.41177F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 57F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(176, 248);
-            this.tableLayoutPanel3.TabIndex = 13;
-            // 
-            // txtx
-            // 
-            this.txtx.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtx.Location = new System.Drawing.Point(88, 158);
-            this.txtx.Name = "txtx";
-            this.txtx.Size = new System.Drawing.Size(85, 20);
-            this.txtx.TabIndex = 11;
-            // 
-            // label10
-            // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(3, 210);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(21, 20);
-            this.label10.TabIndex = 8;
-            this.label10.Text = "Y";
-            // 
-            // label11
-            // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(3, 104);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 20);
-            this.label11.TabIndex = 6;
-            this.label11.Text = "BLUE";
-            // 
-            // label12
-            // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(3, 9);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(47, 20);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "RED";
-            // 
-            // label13
-            // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.Location = new System.Drawing.Point(3, 53);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(76, 18);
-            this.label13.TabIndex = 4;
-            this.label13.Text = "YELLOW";
-            // 
-            // txtred
-            // 
-            this.txtred.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtred.Location = new System.Drawing.Point(88, 9);
-            this.txtred.Name = "txtred";
-            this.txtred.Size = new System.Drawing.Size(85, 20);
-            this.txtred.TabIndex = 3;
-            // 
-            // txtyellow
-            // 
-            this.txtyellow.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtyellow.Location = new System.Drawing.Point(88, 52);
-            this.txtyellow.Name = "txtyellow";
-            this.txtyellow.Size = new System.Drawing.Size(85, 20);
-            this.txtyellow.TabIndex = 1;
-            // 
-            // label14
-            // 
-            this.label14.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(3, 158);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(21, 20);
-            this.label14.TabIndex = 7;
-            this.label14.Text = "X";
-            // 
-            // txtblue
-            // 
-            this.txtblue.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtblue.Location = new System.Drawing.Point(88, 104);
-            this.txtblue.Name = "txtblue";
-            this.txtblue.Size = new System.Drawing.Size(85, 20);
-            this.txtblue.TabIndex = 5;
-            // 
-            // txty
-            // 
-            this.txty.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txty.Location = new System.Drawing.Point(88, 210);
-            this.txty.Name = "txty";
-            this.txty.Size = new System.Drawing.Size(85, 20);
-            this.txty.TabIndex = 9;
-            // 
-            // piccam
-            // 
-            this.piccam.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.piccam.Location = new System.Drawing.Point(115, 24);
-            this.piccam.Name = "piccam";
-            this.piccam.Size = new System.Drawing.Size(397, 245);
-            this.piccam.TabIndex = 14;
-            this.piccam.TabStop = false;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.tableLayoutPanel4);
+            this.panel2.Controls.Add(this.piccam);
+            this.panel2.Controls.Add(this.label15);
+            this.panel2.Controls.Add(this.tableLayoutPanel3);
+            this.panel2.Location = new System.Drawing.Point(14, 342);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(992, 321);
+            this.panel2.TabIndex = 16;
             // 
             // tableLayoutPanel4
             // 
@@ -275,7 +174,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tableLayoutPanel4.Controls.Add(this.btemc, 0, 2);
             this.tableLayoutPanel4.Controls.Add(this.btstop, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.btstart, 0, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(16, 21);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(16, 59);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 4;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.92593F));
@@ -335,27 +234,155 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.btstart.UseVisualStyleBackColor = false;
             this.btstart.Click += new System.EventHandler(this.btstart_Click);
             // 
-            // label15
+            // piccam
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label15.Location = new System.Drawing.Point(10, 319);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(349, 46);
-            this.label15.TabIndex = 11;
-            this.label15.Text = "CONTROL AUTO";
+            this.piccam.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.piccam.Location = new System.Drawing.Point(115, 62);
+            this.piccam.Name = "piccam";
+            this.piccam.Size = new System.Drawing.Size(427, 245);
+            this.piccam.TabIndex = 14;
+            this.piccam.TabStop = false;
             // 
-            // label16
+            // tableLayoutPanel3
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label16.Location = new System.Drawing.Point(21, 16);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(319, 46);
-            this.label16.TabIndex = 10;
-            this.label16.Text = "CONTROL JOG";
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.51064F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.48936F));
+            this.tableLayoutPanel3.Controls.Add(this.txtx, 1, 3);
+            this.tableLayoutPanel3.Controls.Add(this.label10, 0, 4);
+            this.tableLayoutPanel3.Controls.Add(this.label11, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.label12, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label13, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.txtred, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.txtyellow, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label14, 0, 3);
+            this.tableLayoutPanel3.Controls.Add(this.txtblue, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.txty, 1, 4);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(548, 62);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 5;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.58823F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.41177F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 57F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(272, 248);
+            this.tableLayoutPanel3.TabIndex = 13;
+            // 
+            // txtx
+            // 
+            this.txtx.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtx.Location = new System.Drawing.Point(159, 158);
+            this.txtx.Name = "txtx";
+            this.txtx.Size = new System.Drawing.Size(85, 20);
+            this.txtx.TabIndex = 11;
+            // 
+            // label10
+            // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(3, 210);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(21, 20);
+            this.label10.TabIndex = 8;
+            this.label10.Text = "Y";
+            // 
+            // label11
+            // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label11.Location = new System.Drawing.Point(3, 104);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(56, 20);
+            this.label11.TabIndex = 6;
+            this.label11.Text = "BLUE";
+            // 
+            // label12
+            // 
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.Location = new System.Drawing.Point(3, 9);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(47, 20);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "RED";
+            // 
+            // label13
+            // 
+            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label13.Location = new System.Drawing.Point(3, 53);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(76, 18);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "YELLOW";
+            // 
+            // txtred
+            // 
+            this.txtred.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtred.Location = new System.Drawing.Point(159, 9);
+            this.txtred.Name = "txtred";
+            this.txtred.Size = new System.Drawing.Size(85, 20);
+            this.txtred.TabIndex = 3;
+            // 
+            // txtyellow
+            // 
+            this.txtyellow.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtyellow.Location = new System.Drawing.Point(159, 52);
+            this.txtyellow.Name = "txtyellow";
+            this.txtyellow.Size = new System.Drawing.Size(85, 20);
+            this.txtyellow.TabIndex = 1;
+            // 
+            // label14
+            // 
+            this.label14.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label14.Location = new System.Drawing.Point(3, 158);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(21, 20);
+            this.label14.TabIndex = 7;
+            this.label14.Text = "X";
+            // 
+            // txtblue
+            // 
+            this.txtblue.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtblue.Location = new System.Drawing.Point(159, 104);
+            this.txtblue.Name = "txtblue";
+            this.txtblue.Size = new System.Drawing.Size(85, 20);
+            this.txtblue.TabIndex = 5;
+            // 
+            // txty
+            // 
+            this.txty.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txty.Location = new System.Drawing.Point(159, 210);
+            this.txty.Name = "txty";
+            this.txty.Size = new System.Drawing.Size(85, 20);
+            this.txty.TabIndex = 9;
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.tableLayoutPanel5);
+            this.panel1.Controls.Add(this.btkep);
+            this.panel1.Controls.Add(this.bttha);
+            this.panel1.Controls.Add(this.label16);
+            this.panel1.Controls.Add(this.btbangtai);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Location = new System.Drawing.Point(14, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(992, 313);
+            this.panel1.TabIndex = 15;
             // 
             // tableLayoutPanel5
             // 
@@ -365,7 +392,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 178F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112F));
             this.tableLayoutPanel5.Controls.Add(this.zeroj2, 4, 1);
             this.tableLayoutPanel5.Controls.Add(this.zeroj1, 4, 0);
             this.tableLayoutPanel5.Controls.Add(this.thanhkeoj5, 2, 4);
@@ -396,7 +423,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tableLayoutPanel5.Controls.Add(this.txtgocj3, 5, 2);
             this.tableLayoutPanel5.Controls.Add(this.txtgocj4, 5, 3);
             this.tableLayoutPanel5.Controls.Add(this.txtgocj5, 5, 4);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(16, 3);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(16, 58);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 6;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.75F));
@@ -406,13 +433,13 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(675, 248);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(804, 248);
             this.tableLayoutPanel5.TabIndex = 9;
             // 
             // zeroj2
             // 
             this.zeroj2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.zeroj2.Location = new System.Drawing.Point(458, 48);
+            this.zeroj2.Location = new System.Drawing.Point(585, 48);
             this.zeroj2.Name = "zeroj2";
             this.zeroj2.Size = new System.Drawing.Size(87, 23);
             this.zeroj2.TabIndex = 27;
@@ -423,7 +450,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // zeroj1
             // 
             this.zeroj1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.zeroj1.Location = new System.Drawing.Point(458, 8);
+            this.zeroj1.Location = new System.Drawing.Point(585, 8);
             this.zeroj1.Name = "zeroj1";
             this.zeroj1.Size = new System.Drawing.Size(87, 23);
             this.zeroj1.TabIndex = 26;
@@ -434,7 +461,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // thanhkeoj5
             // 
             this.thanhkeoj5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.thanhkeoj5.Location = new System.Drawing.Point(192, 178);
+            this.thanhkeoj5.Location = new System.Drawing.Point(319, 178);
             this.thanhkeoj5.Maximum = 360;
             this.thanhkeoj5.Name = "thanhkeoj5";
             this.thanhkeoj5.Size = new System.Drawing.Size(155, 17);
@@ -444,7 +471,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtthanhkeoj5
             // 
             this.txtthanhkeoj5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtthanhkeoj5.Location = new System.Drawing.Point(362, 176);
+            this.txtthanhkeoj5.Location = new System.Drawing.Point(489, 176);
             this.txtthanhkeoj5.Name = "txtthanhkeoj5";
             this.txtthanhkeoj5.ReadOnly = true;
             this.txtthanhkeoj5.Size = new System.Drawing.Size(74, 20);
@@ -453,7 +480,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // thanhkeoj4
             // 
             this.thanhkeoj4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.thanhkeoj4.Location = new System.Drawing.Point(192, 135);
+            this.thanhkeoj4.Location = new System.Drawing.Point(319, 135);
             this.thanhkeoj4.Maximum = 360;
             this.thanhkeoj4.Name = "thanhkeoj4";
             this.thanhkeoj4.Size = new System.Drawing.Size(155, 17);
@@ -463,7 +490,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtthanhkeoj4
             // 
             this.txtthanhkeoj4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtthanhkeoj4.Location = new System.Drawing.Point(362, 133);
+            this.txtthanhkeoj4.Location = new System.Drawing.Point(489, 133);
             this.txtthanhkeoj4.Name = "txtthanhkeoj4";
             this.txtthanhkeoj4.ReadOnly = true;
             this.txtthanhkeoj4.Size = new System.Drawing.Size(74, 20);
@@ -472,7 +499,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // thanhkeoj3
             // 
             this.thanhkeoj3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.thanhkeoj3.Location = new System.Drawing.Point(192, 93);
+            this.thanhkeoj3.Location = new System.Drawing.Point(319, 93);
             this.thanhkeoj3.Maximum = 360;
             this.thanhkeoj3.Name = "thanhkeoj3";
             this.thanhkeoj3.Size = new System.Drawing.Size(155, 17);
@@ -482,7 +509,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtthanhkeoj3
             // 
             this.txtthanhkeoj3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtthanhkeoj3.Location = new System.Drawing.Point(362, 91);
+            this.txtthanhkeoj3.Location = new System.Drawing.Point(489, 91);
             this.txtthanhkeoj3.Name = "txtthanhkeoj3";
             this.txtthanhkeoj3.ReadOnly = true;
             this.txtthanhkeoj3.Size = new System.Drawing.Size(74, 20);
@@ -491,7 +518,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // thanhkeoj2
             // 
             this.thanhkeoj2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.thanhkeoj2.Location = new System.Drawing.Point(192, 51);
+            this.thanhkeoj2.Location = new System.Drawing.Point(319, 51);
             this.thanhkeoj2.Maximum = 360;
             this.thanhkeoj2.Name = "thanhkeoj2";
             this.thanhkeoj2.Size = new System.Drawing.Size(155, 17);
@@ -501,7 +528,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtthanhkeoj2
             // 
             this.txtthanhkeoj2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtthanhkeoj2.Location = new System.Drawing.Point(362, 49);
+            this.txtthanhkeoj2.Location = new System.Drawing.Point(489, 49);
             this.txtthanhkeoj2.Name = "txtthanhkeoj2";
             this.txtthanhkeoj2.ReadOnly = true;
             this.txtthanhkeoj2.Size = new System.Drawing.Size(74, 20);
@@ -510,7 +537,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej1posi
             // 
             this.movej1posi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej1posi.Location = new System.Drawing.Point(96, 8);
+            this.movej1posi.Location = new System.Drawing.Point(190, 8);
             this.movej1posi.Name = "movej1posi";
             this.movej1posi.Size = new System.Drawing.Size(75, 23);
             this.movej1posi.TabIndex = 11;
@@ -521,7 +548,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej4active
             // 
             this.movej4active.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej4active.Location = new System.Drawing.Point(6, 132);
+            this.movej4active.Location = new System.Drawing.Point(36, 132);
             this.movej4active.Name = "movej4active";
             this.movej4active.Size = new System.Drawing.Size(75, 23);
             this.movej4active.TabIndex = 2;
@@ -532,7 +559,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej2active
             // 
             this.movej2active.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej2active.Location = new System.Drawing.Point(6, 48);
+            this.movej2active.Location = new System.Drawing.Point(36, 48);
             this.movej2active.Name = "movej2active";
             this.movej2active.Size = new System.Drawing.Size(75, 23);
             this.movej2active.TabIndex = 3;
@@ -543,7 +570,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej1active
             // 
             this.movej1active.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej1active.Location = new System.Drawing.Point(6, 8);
+            this.movej1active.Location = new System.Drawing.Point(36, 8);
             this.movej1active.Name = "movej1active";
             this.movej1active.Size = new System.Drawing.Size(75, 23);
             this.movej1active.TabIndex = 0;
@@ -554,7 +581,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej3active
             // 
             this.movej3active.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej3active.Location = new System.Drawing.Point(6, 90);
+            this.movej3active.Location = new System.Drawing.Point(36, 90);
             this.movej3active.Name = "movej3active";
             this.movej3active.Size = new System.Drawing.Size(75, 23);
             this.movej3active.TabIndex = 4;
@@ -565,7 +592,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej5active
             // 
             this.movej5active.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej5active.Location = new System.Drawing.Point(6, 175);
+            this.movej5active.Location = new System.Drawing.Point(36, 175);
             this.movej5active.Name = "movej5active";
             this.movej5active.Size = new System.Drawing.Size(75, 23);
             this.movej5active.TabIndex = 7;
@@ -573,32 +600,10 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.movej5active.UseVisualStyleBackColor = true;
             this.movej5active.Click += new System.EventHandler(this.movej5active_Click);
             // 
-            // btkep
-            // 
-            this.btkep.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btkep.Location = new System.Drawing.Point(725, 6);
-            this.btkep.Name = "btkep";
-            this.btkep.Size = new System.Drawing.Size(88, 23);
-            this.btkep.TabIndex = 9;
-            this.btkep.Text = "GRIP";
-            this.btkep.UseVisualStyleBackColor = true;
-            this.btkep.Click += new System.EventHandler(this.btkep_Click);
-            // 
-            // bttha
-            // 
-            this.bttha.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bttha.Location = new System.Drawing.Point(725, 42);
-            this.bttha.Name = "bttha";
-            this.bttha.Size = new System.Drawing.Size(88, 23);
-            this.bttha.TabIndex = 16;
-            this.bttha.Text = "DROP";
-            this.bttha.UseVisualStyleBackColor = true;
-            this.bttha.Click += new System.EventHandler(this.bttha_Click);
-            // 
             // movej3posi
             // 
             this.movej3posi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej3posi.Location = new System.Drawing.Point(96, 90);
+            this.movej3posi.Location = new System.Drawing.Point(190, 90);
             this.movej3posi.Name = "movej3posi";
             this.movej3posi.Size = new System.Drawing.Size(75, 23);
             this.movej3posi.TabIndex = 14;
@@ -609,7 +614,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej2posi
             // 
             this.movej2posi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej2posi.Location = new System.Drawing.Point(96, 48);
+            this.movej2posi.Location = new System.Drawing.Point(190, 48);
             this.movej2posi.Name = "movej2posi";
             this.movej2posi.Size = new System.Drawing.Size(75, 23);
             this.movej2posi.TabIndex = 12;
@@ -620,7 +625,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej4posi
             // 
             this.movej4posi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej4posi.Location = new System.Drawing.Point(96, 132);
+            this.movej4posi.Location = new System.Drawing.Point(190, 132);
             this.movej4posi.Name = "movej4posi";
             this.movej4posi.Size = new System.Drawing.Size(75, 23);
             this.movej4posi.TabIndex = 13;
@@ -631,7 +636,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // movej5posi
             // 
             this.movej5posi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.movej5posi.Location = new System.Drawing.Point(96, 175);
+            this.movej5posi.Location = new System.Drawing.Point(190, 175);
             this.movej5posi.Name = "movej5posi";
             this.movej5posi.Size = new System.Drawing.Size(75, 23);
             this.movej5posi.TabIndex = 15;
@@ -642,7 +647,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // thanhkeoj1
             // 
             this.thanhkeoj1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.thanhkeoj1.Location = new System.Drawing.Point(192, 11);
+            this.thanhkeoj1.Location = new System.Drawing.Point(319, 11);
             this.thanhkeoj1.Maximum = 360;
             this.thanhkeoj1.Name = "thanhkeoj1";
             this.thanhkeoj1.Size = new System.Drawing.Size(155, 17);
@@ -652,7 +657,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // zeroj3
             // 
             this.zeroj3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.zeroj3.Location = new System.Drawing.Point(458, 90);
+            this.zeroj3.Location = new System.Drawing.Point(585, 90);
             this.zeroj3.Name = "zeroj3";
             this.zeroj3.Size = new System.Drawing.Size(87, 23);
             this.zeroj3.TabIndex = 28;
@@ -663,7 +668,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // zeroj4
             // 
             this.zeroj4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.zeroj4.Location = new System.Drawing.Point(458, 132);
+            this.zeroj4.Location = new System.Drawing.Point(585, 132);
             this.zeroj4.Name = "zeroj4";
             this.zeroj4.Size = new System.Drawing.Size(87, 23);
             this.zeroj4.TabIndex = 29;
@@ -674,7 +679,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // zeroj5
             // 
             this.zeroj5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.zeroj5.Location = new System.Drawing.Point(458, 175);
+            this.zeroj5.Location = new System.Drawing.Point(585, 175);
             this.zeroj5.Name = "zeroj5";
             this.zeroj5.Size = new System.Drawing.Size(87, 23);
             this.zeroj5.TabIndex = 30;
@@ -685,7 +690,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtthanhkeoj1
             // 
             this.txtthanhkeoj1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtthanhkeoj1.Location = new System.Drawing.Point(362, 9);
+            this.txtthanhkeoj1.Location = new System.Drawing.Point(489, 9);
             this.txtthanhkeoj1.Name = "txtthanhkeoj1";
             this.txtthanhkeoj1.ReadOnly = true;
             this.txtthanhkeoj1.Size = new System.Drawing.Size(74, 20);
@@ -694,7 +699,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtgocj1
             // 
             this.txtgocj1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtgocj1.Location = new System.Drawing.Point(577, 9);
+            this.txtgocj1.Location = new System.Drawing.Point(705, 9);
             this.txtgocj1.Name = "txtgocj1";
             this.txtgocj1.ReadOnly = true;
             this.txtgocj1.Size = new System.Drawing.Size(84, 20);
@@ -705,7 +710,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtgocj2
             // 
             this.txtgocj2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtgocj2.Location = new System.Drawing.Point(577, 49);
+            this.txtgocj2.Location = new System.Drawing.Point(705, 49);
             this.txtgocj2.Name = "txtgocj2";
             this.txtgocj2.ReadOnly = true;
             this.txtgocj2.Size = new System.Drawing.Size(84, 20);
@@ -716,7 +721,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtgocj3
             // 
             this.txtgocj3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtgocj3.Location = new System.Drawing.Point(577, 91);
+            this.txtgocj3.Location = new System.Drawing.Point(705, 91);
             this.txtgocj3.Name = "txtgocj3";
             this.txtgocj3.ReadOnly = true;
             this.txtgocj3.Size = new System.Drawing.Size(84, 20);
@@ -727,7 +732,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtgocj4
             // 
             this.txtgocj4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtgocj4.Location = new System.Drawing.Point(577, 133);
+            this.txtgocj4.Location = new System.Drawing.Point(705, 133);
             this.txtgocj4.Name = "txtgocj4";
             this.txtgocj4.ReadOnly = true;
             this.txtgocj4.Size = new System.Drawing.Size(84, 20);
@@ -738,7 +743,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // txtgocj5
             // 
             this.txtgocj5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtgocj5.Location = new System.Drawing.Point(577, 176);
+            this.txtgocj5.Location = new System.Drawing.Point(705, 176);
             this.txtgocj5.Name = "txtgocj5";
             this.txtgocj5.ReadOnly = true;
             this.txtgocj5.Size = new System.Drawing.Size(84, 20);
@@ -746,14 +751,36 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.txtgocj5.Text = "0";
             this.txtgocj5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // btkep
+            // 
+            this.btkep.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btkep.Location = new System.Drawing.Point(858, 63);
+            this.btkep.Name = "btkep";
+            this.btkep.Size = new System.Drawing.Size(117, 23);
+            this.btkep.TabIndex = 9;
+            this.btkep.Text = "GRIP";
+            this.btkep.UseVisualStyleBackColor = true;
+            this.btkep.Click += new System.EventHandler(this.btkep_Click);
+            // 
+            // bttha
+            // 
+            this.bttha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bttha.Location = new System.Drawing.Point(858, 123);
+            this.bttha.Name = "bttha";
+            this.bttha.Size = new System.Drawing.Size(117, 23);
+            this.bttha.TabIndex = 16;
+            this.bttha.Text = "DROP";
+            this.bttha.UseVisualStyleBackColor = true;
+            this.bttha.Click += new System.EventHandler(this.bttha_Click);
+            // 
             // btbangtai
             // 
             this.btbangtai.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btbangtai.BackColor = System.Drawing.Color.Red;
             this.btbangtai.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btbangtai.Location = new System.Drawing.Point(725, 82);
+            this.btbangtai.Location = new System.Drawing.Point(858, 183);
             this.btbangtai.Name = "btbangtai";
-            this.btbangtai.Size = new System.Drawing.Size(88, 23);
+            this.btbangtai.Size = new System.Drawing.Size(117, 23);
             this.btbangtai.TabIndex = 37;
             this.btbangtai.Text = "CONVEYOR";
             this.btbangtai.UseVisualStyleBackColor = false;
@@ -762,67 +789,92 @@ namespace phan_loai_mau_arm_fanuc_lr
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(725, 124);
+            this.button1.Location = new System.Drawing.Point(858, 243);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 23);
+            this.button1.Size = new System.Drawing.Size(117, 23);
             this.button1.TabIndex = 38;
             this.button1.Text = "GO TO ZERO";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label15.Location = new System.Drawing.Point(11, 10);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(349, 46);
+            this.label15.TabIndex = 11;
+            this.label15.Text = "CONTROL AUTO";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label16.Location = new System.Drawing.Point(11, 9);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(319, 46);
+            this.label16.TabIndex = 10;
+            this.label16.Text = "CONTROL JOG";
+            // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(tabPage2);
+            this.tabControl1.Controls.Add(tabPage5);
+            this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1022, 697);
-            this.tabControl1.TabIndex = 11;
+            this.tabControl1.Size = new System.Drawing.Size(1326, 697);
+            this.tabControl1.TabIndex = 13;
             this.tabControl1.TabStop = false;
             // 
-            // tabPage1
+            // tabPage3
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage1.Size = new System.Drawing.Size(717, 583);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "CONNECT";
+            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.tabPage3.Controls.Add(this.panel6);
+            this.tabPage3.Controls.Add(this.panel5);
+            this.tabPage3.Controls.Add(this.panel4);
+            this.tabPage3.Controls.Add(this.panel3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(1318, 671);
+            this.tabPage3.TabIndex = 0;
+            this.tabPage3.Text = "HOME";
             // 
-            // groupBox1
+            // label4
             // 
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.disconnectport);
-            this.groupBox1.Controls.Add(this.connectport);
-            this.groupBox1.Controls.Add(this.cbcom);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.btdisconnectcam);
-            this.groupBox1.Controls.Add(this.btconnectcam);
-            this.groupBox1.Controls.Add(this.btdisconnectplc);
-            this.groupBox1.Controls.Add(this.btconnectplc);
-            this.groupBox1.Controls.Add(this.cbcam);
-            this.groupBox1.Controls.Add(this.txtip);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Location = new System.Drawing.Point(36, 90);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(631, 164);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(396, -6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(646, 106);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Đồ án tốt nghiệp";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1318, 671);
+            this.tabPage4.TabIndex = 0;
+            this.tabPage4.Text = "CONNECT";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(6, 90);
+            this.label3.Location = new System.Drawing.Point(3, 151);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 20);
             this.label3.TabIndex = 13;
@@ -830,7 +882,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             // disconnectport
             // 
-            this.disconnectport.Location = new System.Drawing.Point(401, 90);
+            this.disconnectport.Location = new System.Drawing.Point(182, 184);
             this.disconnectport.Name = "disconnectport";
             this.disconnectport.Size = new System.Drawing.Size(88, 20);
             this.disconnectport.TabIndex = 12;
@@ -839,7 +891,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             // connectport
             // 
-            this.connectport.Location = new System.Drawing.Point(299, 90);
+            this.connectport.Location = new System.Drawing.Point(104, 184);
             this.connectport.Name = "connectport";
             this.connectport.Size = new System.Drawing.Size(75, 20);
             this.connectport.TabIndex = 11;
@@ -850,9 +902,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // cbcom
             // 
             this.cbcom.FormattingEnabled = true;
-            this.cbcom.Location = new System.Drawing.Point(112, 91);
+            this.cbcom.Location = new System.Drawing.Point(101, 152);
             this.cbcom.Name = "cbcom";
-            this.cbcom.Size = new System.Drawing.Size(148, 21);
+            this.cbcom.Size = new System.Drawing.Size(169, 21);
             this.cbcom.TabIndex = 10;
             // 
             // label2
@@ -860,7 +912,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(6, 62);
+            this.label2.Location = new System.Drawing.Point(3, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 20);
             this.label2.TabIndex = 9;
@@ -871,7 +923,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(6, 34);
+            this.label1.Location = new System.Drawing.Point(3, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 20);
             this.label1.TabIndex = 8;
@@ -879,7 +931,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             // btdisconnectcam
             // 
-            this.btdisconnectcam.Location = new System.Drawing.Point(401, 62);
+            this.btdisconnectcam.Location = new System.Drawing.Point(182, 112);
             this.btdisconnectcam.Name = "btdisconnectcam";
             this.btdisconnectcam.Size = new System.Drawing.Size(88, 20);
             this.btdisconnectcam.TabIndex = 7;
@@ -889,9 +941,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             // btconnectcam
             // 
-            this.btconnectcam.Location = new System.Drawing.Point(299, 62);
+            this.btconnectcam.Location = new System.Drawing.Point(101, 112);
             this.btconnectcam.Name = "btconnectcam";
-            this.btconnectcam.Size = new System.Drawing.Size(75, 20);
+            this.btconnectcam.Size = new System.Drawing.Size(78, 20);
             this.btconnectcam.TabIndex = 6;
             this.btconnectcam.Text = "CONNECT";
             this.btconnectcam.UseVisualStyleBackColor = true;
@@ -899,7 +951,7 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             // btdisconnectplc
             // 
-            this.btdisconnectplc.Location = new System.Drawing.Point(401, 36);
+            this.btdisconnectplc.Location = new System.Drawing.Point(182, 43);
             this.btdisconnectplc.Name = "btdisconnectplc";
             this.btdisconnectplc.Size = new System.Drawing.Size(88, 20);
             this.btdisconnectplc.TabIndex = 5;
@@ -909,9 +961,9 @@ namespace phan_loai_mau_arm_fanuc_lr
             // 
             // btconnectplc
             // 
-            this.btconnectplc.Location = new System.Drawing.Point(299, 36);
+            this.btconnectplc.Location = new System.Drawing.Point(101, 43);
             this.btconnectplc.Name = "btconnectplc";
-            this.btconnectplc.Size = new System.Drawing.Size(75, 20);
+            this.btconnectplc.Size = new System.Drawing.Size(78, 20);
             this.btconnectplc.TabIndex = 4;
             this.btconnectplc.Text = "CONNECT";
             this.btconnectplc.UseVisualStyleBackColor = true;
@@ -920,22 +972,22 @@ namespace phan_loai_mau_arm_fanuc_lr
             // cbcam
             // 
             this.cbcam.FormattingEnabled = true;
-            this.cbcam.Location = new System.Drawing.Point(112, 63);
+            this.cbcam.Location = new System.Drawing.Point(101, 83);
             this.cbcam.Name = "cbcam";
-            this.cbcam.Size = new System.Drawing.Size(148, 21);
+            this.cbcam.Size = new System.Drawing.Size(169, 21);
             this.cbcam.TabIndex = 3;
             // 
             // txtip
             // 
-            this.txtip.Location = new System.Drawing.Point(112, 36);
+            this.txtip.Location = new System.Drawing.Point(101, 14);
             this.txtip.Name = "txtip";
-            this.txtip.Size = new System.Drawing.Size(148, 20);
+            this.txtip.Size = new System.Drawing.Size(169, 20);
             this.txtip.TabIndex = 2;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(23, 65);
+            this.label8.Location = new System.Drawing.Point(20, 104);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(0, 13);
             this.label8.TabIndex = 1;
@@ -943,69 +995,267 @@ namespace phan_loai_mau_arm_fanuc_lr
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(23, 36);
+            this.label9.Location = new System.Drawing.Point(20, 14);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(0, 13);
             this.label9.TabIndex = 0;
             // 
-            // tabPage3
+            // panel3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(717, 583);
-            this.tabPage3.TabIndex = 0;
-            this.tabPage3.Text = "HOME";
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1318, 100);
+            this.panel3.TabIndex = 1;
             // 
-            // panel1
+            // panel4
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.tableLayoutPanel5);
-            this.panel1.Controls.Add(this.btkep);
-            this.panel1.Controls.Add(this.bttha);
-            this.panel1.Controls.Add(this.btbangtai);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(14, 65);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(834, 251);
-            this.panel1.TabIndex = 15;
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 100);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1318, 219);
+            this.panel4.TabIndex = 2;
             // 
-            // panel2
+            // label5
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.tableLayoutPanel4);
-            this.panel2.Controls.Add(this.piccam);
-            this.panel2.Controls.Add(this.tableLayoutPanel3);
-            this.panel2.Location = new System.Drawing.Point(14, 368);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(834, 307);
-            this.panel2.TabIndex = 16;
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label5.Location = new System.Drawing.Point(171, 81);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(943, 72);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Điều khiển Robot phân loại sản phẩm ";
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.label20);
+            this.panel5.Controls.Add(this.label21);
+            this.panel5.Controls.Add(this.label22);
+            this.panel5.Controls.Add(this.label19);
+            this.panel5.Controls.Add(this.label18);
+            this.panel5.Controls.Add(this.label17);
+            this.panel5.Controls.Add(this.label6);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel5.Location = new System.Drawing.Point(0, 319);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(521, 352);
+            this.panel5.TabIndex = 3;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.label7);
+            this.panel6.Controls.Add(this.textBox1);
+            this.panel6.Controls.Add(this.button2);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel6.Location = new System.Drawing.Point(831, 319);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(487, 352);
+            this.panel6.TabIndex = 4;
+            // 
+            // label6
+            // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Location = new System.Drawing.Point(48, 53);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(152, 37);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Thành viên:";
+            // 
+            // panel7
+            // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel7.Controls.Add(this.label3);
+            this.panel7.Controls.Add(this.label1);
+            this.panel7.Controls.Add(this.disconnectport);
+            this.panel7.Controls.Add(this.label9);
+            this.panel7.Controls.Add(this.connectport);
+            this.panel7.Controls.Add(this.label8);
+            this.panel7.Controls.Add(this.cbcom);
+            this.panel7.Controls.Add(this.txtip);
+            this.panel7.Controls.Add(this.label2);
+            this.panel7.Controls.Add(this.cbcam);
+            this.panel7.Controls.Add(this.btconnectplc);
+            this.panel7.Controls.Add(this.btdisconnectcam);
+            this.panel7.Controls.Add(this.btdisconnectplc);
+            this.panel7.Controls.Add(this.btconnectcam);
+            this.panel7.Location = new System.Drawing.Point(1012, 3);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(298, 660);
+            this.panel7.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = global::phan_loai_mau_arm_fanuc_lr.Properties.Resources.Screenshot_2023_08_26_222015;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBox2.Image = global::phan_loai_mau_arm_fanuc_lr.Properties.Resources.Screenshot_2023_08_26_222015;
+            this.pictureBox2.Location = new System.Drawing.Point(1218, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(396, 311);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Login";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(259, 313);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(131, 20);
+            this.textBox1.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label7.Location = new System.Drawing.Point(354, 336);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(117, 13);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Đăng nhập thành công";
+            this.label7.Visible = false;
+            // 
+            // label17
+            // 
+            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.Location = new System.Drawing.Point(72, 114);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(66, 37);
+            this.label17.TabIndex = 3;
+            this.label17.Text = "ABC";
+            // 
+            // label18
+            // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.Location = new System.Drawing.Point(72, 182);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(66, 37);
+            this.label18.TabIndex = 4;
+            this.label18.Text = "ABC";
+            // 
+            // label19
+            // 
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.Location = new System.Drawing.Point(72, 250);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(66, 37);
+            this.label19.TabIndex = 5;
+            this.label19.Text = "ABC";
+            // 
+            // label20
+            // 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label20.Location = new System.Drawing.Point(356, 250);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(66, 37);
+            this.label20.TabIndex = 8;
+            this.label20.Text = "ABC";
+            // 
+            // label21
+            // 
+            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label21.Location = new System.Drawing.Point(356, 182);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(66, 37);
+            this.label21.TabIndex = 7;
+            this.label21.Text = "ABC";
+            // 
+            // label22
+            // 
+            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label22.Location = new System.Drawing.Point(356, 114);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(137, 37);
+            this.label22.TabIndex = 6;
+            this.label22.Text = "18151000";
             // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1022, 697);
+            this.ClientSize = new System.Drawing.Size(1326, 697);
             this.Controls.Add(this.tabControl1);
             this.Name = "main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.controljog_Load);
-            tabPage2.ResumeLayout(false);
-            tabPage2.PerformLayout();
+            tabPage5.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.piccam)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.piccam)).EndInit();
-            this.tableLayoutPanel4.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1065,8 +1315,7 @@ namespace phan_loai_mau_arm_fanuc_lr
         private System.Windows.Forms.TextBox txtgocj4;
         private System.Windows.Forms.TextBox txtgocj5;
         private System.Windows.Forms.Button btbangtai;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Button btdisconnectcam;
         private System.Windows.Forms.Button btconnectcam;
         private System.Windows.Forms.Button btdisconnectplc;
@@ -1085,6 +1334,25 @@ namespace phan_loai_mau_arm_fanuc_lr
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
     }
 }
 

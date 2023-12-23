@@ -31,6 +31,7 @@ namespace phan_loai_mau_arm_fanuc_lr
         bool sttbangtai = false;
         bool sttcam = false;
         bool sttplc = false;
+        Panel[] arrPanel = new Panel[3];
 
         public main()
         {
@@ -49,6 +50,14 @@ namespace phan_loai_mau_arm_fanuc_lr
             string[] port = SerialPort.GetPortNames();
             cbcom.Items.AddRange(port);
             enableTab(tabControl1.TabPages[tabControl1.SelectedIndex = 1], true);
+            tabControl1.SelectedIndex = 0;
+            arrPanel[0] = panel1;
+            arrPanel[1] = panel2;
+            arrPanel[2] = panel7;
+            foreach (var item in arrPanel)
+            {
+                item.Visible = false;
+            }
         }
 
         private void enableTab(TabPage tabPage, bool enable)
@@ -427,6 +436,22 @@ namespace phan_loai_mau_arm_fanuc_lr
         {
             j5 = 0;
             txtgocj5.Text = j5.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if ("123456" == textBox1.Text)
+            {
+                foreach (var item in arrPanel)
+                {
+                    item.Visible = true;
+                }
+                label7.Visible = true;
+            }
+            else 
+            {
+                MessageBox.Show("Nhập sai mật khẩu", "Thông báo");
+            }
         }
     }
 }
